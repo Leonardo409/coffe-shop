@@ -219,3 +219,34 @@ body {
     font-family: 'Migra';
   }
 }
+
+.footer-container{
+  background-color: #ffbbdc;
+
+  .section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  h2{
+    font-size: 40px;
+    line-height: 2.5rem;
+    font-family: 'Agrandir Grand';
+    font-weight: bold;
+  }
+
+
+  .info-wrap{
+    display: flex;
+
+    .info-box > p:first-child{
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    & > div {
+      flex-basis: 50%;
+    }
+  }
+}
